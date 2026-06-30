@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0203/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0203/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玉籙大齋第一日晚朝儀
+  date: '2015-08-29 00:12:32.347078'
+  source:
+    repository: kanripo
+    path: KR5b0203
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0203_000-ZTDZ.yaml, hash: 'sha256:43b44e17b7a8be36d68c9a8acc757314fe34867be1681c07d220b3bc2a6e3579'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0203_000-ZTDZ.markers.yaml, hash: 'sha256:79928707effb0e50f850605d917e570a56e47774ce3f44013851269bc7fb3d00'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0203_SJB_000-090166b
+    span:
+    - body
+    - 0
+    - 1255
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d4c30557bebea897560a35309241bd6b17f36fdd6878377040c1104f098c7d12
